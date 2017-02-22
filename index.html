@@ -9,6 +9,9 @@
   </body>
   <script>
       // affiche la seconde image quand le curseur passe sur la première.
-      var image = document.getElementById("image1").addEventListener("mouseover" , image.src = "images/image1_2.jpg";)
+      var image = document.getElementById("image1");
+        document.getElementById("image1").addEventListener("mouseover" , function() {
+        image.src = "images/image1_2.jpg";
+      })
   </script>
 </html>
